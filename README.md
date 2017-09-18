@@ -1,4 +1,4 @@
-# Library-of-Numerical-Analysis-MSU-
+# Library-of-Numerical-Analysis-MSU
 Library of Numerical Analysis of the Research Computing Center of the Moscow State University. Translation of subroutines into modern Fortran.
 Website: http://num-anal.srcc.msu.ru/lib_na/cat/cat0.htm
 
