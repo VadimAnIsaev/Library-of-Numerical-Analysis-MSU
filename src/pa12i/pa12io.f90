@@ -1,0 +1,40 @@
+program test_pa12i      
+
+INTEGER IP(35)
+  IP = 0
+  N=100
+  CALL PA12I(N,IP)
+!  PRINT 1,IP
+1 FORMAT(18I4)
+
+CONTAINS
+
+SUBROUTINE PA12I(N,IP)
+
+INTEGER N,IP,I,J,K
+REAL S
+DIMENSION IP(35)
+
+IP(1)=1
+IP(2)=2
+IP(3)=3
+J=3
+IF(N.LE.3) GO TO 40
+DO 30 K=3,N,2
+  print *, 'K=', K
+  I=2
+  S=SQRT(REAL(K))
+10 I=I+1
+   print *, 'i=', i
+  IF(IP(I).LE.S) GO TO 20
+  IP(J)=K
+  J=J+1
+  print *, 'j=', j
+  GO TO 30
+20 IF(K/IP(I)*IP(I).NE.K) GO TO 10
+30 CONTINUE
+40 RETURN
+
+END SUBROUTINE PA12I
+
+END PROGRAM test_pa12i
