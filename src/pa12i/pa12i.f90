@@ -7,7 +7,6 @@
 !
 ! MATHEMATICS OF COMPUTATION
 ! Volume 68, Number 225, January 1999, Pages 411–415
-! http://rfpro.ru/d/10601.pdf
 ! http://www.ams.org/journals/mcom/1999-68-225/S0025-5718-99-01037-6/S0025-5718-99-01037-6.pdf
 !
 program test_pa12i
